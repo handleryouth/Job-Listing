@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA44952C2C8D7D3B009FEB95 /* FilterContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44952B2C8D7D3B009FEB95 /* FilterContainer.swift */; };
 		EAE845F42C8D2741003A9B9D /* Job_ListingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE845F32C8D2741003A9B9D /* Job_ListingApp.swift */; };
 		EAE845F62C8D2741003A9B9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE845F52C8D2741003A9B9D /* ContentView.swift */; };
 		EAE845F82C8D2744003A9B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE845F72C8D2744003A9B9D /* Assets.xcassets */; };
@@ -14,6 +15,12 @@
 		EAE846052C8D2744003A9B9D /* Job_ListingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE846042C8D2744003A9B9D /* Job_ListingTests.swift */; };
 		EAE8460F2C8D2744003A9B9D /* Job_ListingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8460E2C8D2744003A9B9D /* Job_ListingUITests.swift */; };
 		EAE846112C8D2744003A9B9D /* Job_ListingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE846102C8D2744003A9B9D /* Job_ListingUITestsLaunchTests.swift */; };
+		EAE8461E2C8D2805003A9B9D /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = EAE8461D2C8D2805003A9B9D /* data.json */; };
+		EAE846212C8D2831003A9B9D /* DecodeJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE846202C8D2831003A9B9D /* DecodeJSON.swift */; };
+		EAE846272C8D2B90003A9B9D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE846262C8D2B90003A9B9D /* HomeViewModel.swift */; };
+		EAE8462A2C8D2BD4003A9B9D /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE846292C8D2BD4003A9B9D /* HomeModel.swift */; };
+		EAE8462D2C8D2E0A003A9B9D /* JobCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8462C2C8D2E0A003A9B9D /* JobCard.swift */; };
+		EAE846302C8D35BC003A9B9D /* LanguageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8462F2C8D35BC003A9B9D /* LanguageCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA44952B2C8D7D3B009FEB95 /* FilterContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterContainer.swift; sourceTree = "<group>"; };
 		EAE845F02C8D2741003A9B9D /* Job Listing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Job Listing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE845F32C8D2741003A9B9D /* Job_ListingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job_ListingApp.swift; sourceTree = "<group>"; };
 		EAE845F52C8D2741003A9B9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +52,12 @@
 		EAE8460A2C8D2744003A9B9D /* Job ListingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Job ListingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE8460E2C8D2744003A9B9D /* Job_ListingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job_ListingUITests.swift; sourceTree = "<group>"; };
 		EAE846102C8D2744003A9B9D /* Job_ListingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job_ListingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EAE8461D2C8D2805003A9B9D /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		EAE846202C8D2831003A9B9D /* DecodeJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeJSON.swift; sourceTree = "<group>"; };
+		EAE846262C8D2B90003A9B9D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EAE846292C8D2BD4003A9B9D /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		EAE8462C2C8D2E0A003A9B9D /* JobCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCard.swift; sourceTree = "<group>"; };
+		EAE8462F2C8D35BC003A9B9D /* LanguageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA44952A2C8D7D28009FEB95 /* FilterContainer */ = {
+			isa = PBXGroup;
+			children = (
+				EA44952B2C8D7D3B009FEB95 /* FilterContainer.swift */,
+			);
+			path = FilterContainer;
+			sourceTree = "<group>";
+		};
 		EAE845E72C8D2741003A9B9D = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +116,11 @@
 		EAE845F22C8D2741003A9B9D /* Job Listing */ = {
 			isa = PBXGroup;
 			children = (
+				EAE8462B2C8D2DF6003A9B9D /* UI */,
+				EAE846222C8D2B2F003A9B9D /* Features */,
 				EAE845F32C8D2741003A9B9D /* Job_ListingApp.swift */,
-				EAE845F52C8D2741003A9B9D /* ContentView.swift */,
+				EAE8461F2C8D2824003A9B9D /* Utils */,
+				EAE8461D2C8D2805003A9B9D /* data.json */,
 				EAE845F72C8D2744003A9B9D /* Assets.xcassets */,
 				EAE845F92C8D2744003A9B9D /* Preview Content */,
 			);
@@ -127,6 +152,74 @@
 			path = "Job ListingUITests";
 			sourceTree = "<group>";
 		};
+		EAE8461F2C8D2824003A9B9D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EAE846202C8D2831003A9B9D /* DecodeJSON.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EAE846222C8D2B2F003A9B9D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				EAE846232C8D2B42003A9B9D /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		EAE846232C8D2B42003A9B9D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EAE846282C8D2BB9003A9B9D /* Model */,
+				EAE846252C8D2B76003A9B9D /* View */,
+				EAE846242C8D2B6A003A9B9D /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EAE846242C8D2B6A003A9B9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EAE846262C8D2B90003A9B9D /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EAE846252C8D2B76003A9B9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EAE845F52C8D2741003A9B9D /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EAE846282C8D2BB9003A9B9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EAE846292C8D2BD4003A9B9D /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAE8462B2C8D2DF6003A9B9D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EA44952A2C8D7D28009FEB95 /* FilterContainer */,
+				EAE8462E2C8D35A8003A9B9D /* JobCard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EAE8462E2C8D35A8003A9B9D /* JobCard */ = {
+			isa = PBXGroup;
+			children = (
+				EAE8462C2C8D2E0A003A9B9D /* JobCard.swift */,
+				EAE8462F2C8D35BC003A9B9D /* LanguageCard.swift */,
+			);
+			path = JobCard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +236,8 @@
 			dependencies = (
 			);
 			name = "Job Listing";
+			packageProductDependencies = (
+			);
 			productName = "Job Listing";
 			productReference = EAE845F02C8D2741003A9B9D /* Job Listing.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +310,8 @@
 				Base,
 			);
 			mainGroup = EAE845E72C8D2741003A9B9D;
+			packageReferences = (
+			);
 			productRefGroup = EAE845F12C8D2741003A9B9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAE845FB2C8D2744003A9B9D /* Preview Assets.xcassets in Resources */,
+				EAE8461E2C8D2805003A9B9D /* data.json in Resources */,
 				EAE845F82C8D2744003A9B9D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +356,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAE845F62C8D2741003A9B9D /* ContentView.swift in Sources */,
+				EA44952C2C8D7D3B009FEB95 /* FilterContainer.swift in Sources */,
+				EAE846302C8D35BC003A9B9D /* LanguageCard.swift in Sources */,
+				EAE846212C8D2831003A9B9D /* DecodeJSON.swift in Sources */,
 				EAE845F42C8D2741003A9B9D /* Job_ListingApp.swift in Sources */,
+				EAE8462A2C8D2BD4003A9B9D /* HomeModel.swift in Sources */,
+				EAE846272C8D2B90003A9B9D /* HomeViewModel.swift in Sources */,
+				EAE8462D2C8D2E0A003A9B9D /* JobCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +529,12 @@
 				DEVELOPMENT_TEAM = 4DZ42G7R7L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Job Listing";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +542,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "handleryouth.app.Job-Listing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,11 +563,12 @@
 				DEVELOPMENT_TEAM = 4DZ42G7R7L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Job Listing";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +576,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "handleryouth.app.Job-Listing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
